@@ -25,7 +25,7 @@ client = commands.Bot(command_prefix=';', intents=intents)
 
 @client.command()
 async def load(ctx, extension):
-    if ctx.message.author.id == 800608160124764182:
+    if ctx.message.author.id == "YOUR AUTHOR ID":
         try:
             
             await client.load_extension(f"cogs.{extension}")
@@ -39,7 +39,7 @@ async def load(ctx, extension):
 
 @client.command()
 async def unload(ctx, extension):
-    if ctx.message.author.id == 800608160124764182:
+    if ctx.message.author.id == "YOUR AUTHOR ID":
         try:
             await client.unload_extension(f"cogs.{extension}")
             await ctx.send(f"{extension} unloaded")
@@ -123,7 +123,7 @@ async def main():
         await load_extensions()
         await client.start('')
 
-asyncio.run(main())
+asyncio.run(main("YOUR BOT  TOKEN"))
 
 
 
