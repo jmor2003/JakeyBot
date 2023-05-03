@@ -1,0 +1,2 @@
+# JakeyBot
+Discord Music Bot
