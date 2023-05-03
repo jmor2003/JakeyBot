@@ -1,2 +1,2 @@
 # JakeyBot
-Discord Music Bot and more
+Discord Music Bot and More
