@@ -121,7 +121,7 @@ async def on_command_error(ctx, error):
 async def main():
     async with client:
         await load_extensions()
-        await client.start('ODYzMjA3Mzg1NDM5MjcyOTgw.GKppmH.Brz4A9R96llak64E-jfy7NsL-TphPfmr3AFpms')
+        await client.start('')
 
 asyncio.run(main())
 
